@@ -1,0 +1,8 @@
+.header {
+    background-color: var(--green_color);
+    border-color: #d6e9c6;
+    color: black;
+    margin: 2px 0 10px 0;
+    padding: 10px;
+    text-align: center;
+  }

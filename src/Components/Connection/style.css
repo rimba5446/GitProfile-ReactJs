@@ -1,0 +1,40 @@
+.grid:first-child {
+    border-left: none;
+  }
+  
+  @media only screen and (max-width: 360px) {
+  
+    .grid {
+      float: none;
+      display: block;
+      width: 96%;
+      border-left-width: 0;
+      position: relative;
+      margin-bottom: 11px;
+      border-bottom: 1px solid #E3E3E3;
+      padding-bottom: 4px;
+    }
+  }
+  
+  .grid {
+    cursor: pointer;
+    width: 48%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 1%;
+    padding: 0 2%;
+    float: left;
+    border-left: 1px solid #E3E3E3;
+  }
+  
+  .grid>span {
+    color: var(--yellow_color);
+    font-size: 35px;
+  }
+  
+  .grid>div {
+    font-size: 20px;
+  }
